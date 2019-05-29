@@ -17,14 +17,15 @@ namespace SalesWebMvC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Dragmire Company, make your life simple.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "If you need any help contact us by email below.";
+            ViewData["Email"] = "diego.dragmire@gmail.com";
 
             return View();
         }
